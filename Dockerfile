@@ -1,6 +1,6 @@
 FROM alpine:3.8
 
-ARG KUSTOMIZE_VERSION=v3.6.0
+ARG KUSTOMIZE_VERSION=v4.4.0
 
 RUN apk add --update ca-certificates git \
  && apk add --update -t deps curl \
